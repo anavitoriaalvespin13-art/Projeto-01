@@ -5,7 +5,7 @@ const tempo = document.querySelector('.tempo');
 
 //Uma ray com todos os nomes dos personagem 
 const personagens = [ 
-  'frieren',
+  './imagens/frieren',
   'fern',
   'himmel',
   'mestra',
