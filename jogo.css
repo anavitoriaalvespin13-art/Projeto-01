@@ -3,7 +3,7 @@ main{
   display: flex;
   flex-direction: column;
   width: 100%;
-  background: linear-gradient(rgba(8, 27, 171, 0.301), #08441875), url(/imagens/Gemini_Generated_Image_bbpc36bbpc36bbpc.png);
+  background: linear-gradient(rgba(8, 27, 171, 0.301), #08441875), url('./imagens/Gemini_Generated_Image_bbpc36bbpc36bbpc.png');
   background-size: cover;
   min-height: 100vh;
   align-items: center;
@@ -63,7 +63,7 @@ header{
 }
 
 .tras{
-    background-image: url(/imagens/capa\ da\ frnete.jfif);
+    background-image: url('./imagens/capa\ da\ frnete.jfif');
     backface-visibility: hidden;
 }
 
