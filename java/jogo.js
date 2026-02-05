@@ -5,9 +5,9 @@ const tempo = document.querySelector('.tempo');
 
 //Uma ray com todos os nomes dos personagem 
 const personagens = [ 
-  './imagens/frieren',
+  'frieren',
   'fern',
-  './imagens/himmel',
+  'himmel',
   'mestra',
   'shisui',
   'stark',
@@ -99,7 +99,7 @@ const createCard = (personagem) =>{
  const frente = createElement('div', 'face frente');
  const tras = createElement('div', 'face tras');
 
-frente.style.backgroundImage = `url('.//imagens/${personagem}.jfif')`;
+frente.style.backgroundImage = `url('./imagens/${personagem}.jfif')`;
 
 
  card.appendChild(frente);
