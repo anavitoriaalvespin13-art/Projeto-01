@@ -10,9 +10,7 @@ const personagens = [
   'himmel',
   'mestra',
   'shisui',
-  'stark',
   'heiter',
-  'os_tres',
   'casal1',
   'grupo',
 ];
