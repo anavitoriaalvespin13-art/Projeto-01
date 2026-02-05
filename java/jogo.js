@@ -7,7 +7,7 @@ const tempo = document.querySelector('.tempo');
 const personagens = [ 
   './imagens/frieren',
   'fern',
-  'himmel',
+  './imagens/himmel',
   'mestra',
   'shisui',
   'stark',
@@ -99,7 +99,7 @@ const createCard = (personagem) =>{
  const frente = createElement('div', 'face frente');
  const tras = createElement('div', 'face tras');
 
-frente.style.backgroundImage = `url('./imagens/${personagem}.jfif')`;
+frente.style.backgroundImage = `url('.//imagens/${personagem}.jfif')`;
 
 
  card.appendChild(frente);
