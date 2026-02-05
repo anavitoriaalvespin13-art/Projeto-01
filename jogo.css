@@ -15,7 +15,7 @@ header{
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 750px;
+  max-width: 600px;
   background-color: rgba(51, 197, 119, 0.696);
   border-radius: 5px;
   font-size: 1.8em;
@@ -30,7 +30,7 @@ header{
     grid-template-columns: repeat(5,1fr);
     gap:15px;
     width: 100%;
-    max-width: 750px;
+    max-width: 600px;
     border-radius: 5px;
     margin: 0 auto;
     
