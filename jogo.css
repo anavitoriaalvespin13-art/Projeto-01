@@ -1,0 +1,78 @@
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(rgba(8, 27, 171, 0.301), #08441875), url(/imagens/Gemini_Generated_Image_bbpc36bbpc36bbpc.png);
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 50px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 750px;
+  background-color: rgba(51, 197, 119, 0.696);
+  border-radius: 5px;
+  font-size: 1.8em;
+  padding: 10px 10px;
+  margin: 0 0 15px;
+  color: rgb(255, 255, 255);
+}
+
+
+.grid{
+    display: grid; 
+    grid-template-columns: repeat(5,1fr);
+    gap:15px;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+
+.card{
+    aspect-ratio: 3/4;
+    width: 100%;
+    border-radius: 5px;
+    position: relative; /*tudo que estiver dentro dessa dive não vai poder sair*/
+    transition: all 400ms ease;
+    transform-style:preserve-3d;
+    background-color: rgba(182, 202, 182, 0.365);
+}
+
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px; 
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(75, 158, 107);
+    transition: all 400ms ease;
+}
+
+.frente{
+  transform: rotateY(180deg);
+   backface-visibility: hidden; 
+}
+
+.tras{
+    background-image: url(/imagens/capa\ da\ frnete.jfif);
+    backface-visibility: hidden;
+}
+
+.revelar-carta{
+   transform: rotateY(180deg);
+}
+
+
+.desabilitar-carta  {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
