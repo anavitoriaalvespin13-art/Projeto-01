@@ -16,7 +16,7 @@ const handleSubmit = (event) =>{
     event.preventDefault();
     
     localStorage.setItem('player', input.value);
-    window.location = './jogo.html' /* Isso leva o usuario para outra pagina */
+    window.location = './Java/jogo.html' /* Isso leva o usuario para outra pagina */
 }
 
 input.addEventListener('input', validainput);
