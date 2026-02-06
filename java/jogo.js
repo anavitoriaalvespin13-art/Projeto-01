@@ -13,6 +13,8 @@ const personagens = [
   'heiter',
   'casal1',
   'grupo',
+  'os_tres',
+  'stark',
 ];
 
 const createElement =(tag, className) => {    //Essa funçao coloca a imagem dentro da carta 
